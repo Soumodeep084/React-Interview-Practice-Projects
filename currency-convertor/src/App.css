@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('../public/back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.currency-container {
+  width: 410px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px 30px 50px;
+  border-radius: 8px;
+  backdrop-filter: blur(50px);
+  background: rgba(2, 7, 40, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.currency-container .currency-header {
+  color: #fff;
+  font-size: 1.95rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.currency-container .form-div {
+  font-size: 15px !important;
+}
+
+.currency-container .label-form {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.currency-container .input-form {
+  font-size: 15px !important;
+  color: red !important;
+}
+
+.currency-container .select-form {
+  display: flex;
+  padding: 0 10px;
+  min-height: 45px;
+  align-items: center;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.currency-container .select-form img {
+  width: 25px;
+}
+
+.currency-container .select-dropdown {
+  font-family: calibri;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background: none;
+  color: #f0f0f0;
+  font-weight: 500;
+  padding: 0 10px 0 5px;
+}
+
+.currency-container .select-dropdown option {
+  color: #3d3939;
+  font-weight: 500;
+}
+
+.currency-container .swap-icon {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: 0.2s ease;
+}
+
+.currency-container .swap-icon:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.currency-container .btn-submit {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  min-height: 45px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: 0.2s ease;
+}
+
+.currency-container .btn-submit:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.currency-container .exchange-result {
+  color: #fff;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 25px;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+  background: rgba(255, 255, 255, 0.15);
+}
