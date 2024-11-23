@@ -1,0 +1,18 @@
+.otpInputBox{
+    width: 40px;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.otpInputBox:focus {
+    outline: none;
+    border: 1px solid #2c2cdd;
+    box-shadow: 1.5px 1.5px 10px rgba(44, 44, 221, 0.5);
+}
