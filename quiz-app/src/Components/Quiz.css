@@ -1,0 +1,50 @@
+.quiz-card {
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-header {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    border-bottom: 1.5px solid black;
+}
+
+.quiz-question {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+}
+
+.options {
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Calibri';
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    color: #444;
+    cursor: pointer;
+}
+
+.quiz-footer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Correct{
+    background-color: #dffff2;
+    border-color: #00d397;
+}
+
+.Wrong{
+    background: #FFEBEB;
+    border-color: #FF4A4A;
+}
